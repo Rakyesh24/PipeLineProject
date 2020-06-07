@@ -23,6 +23,7 @@ public class LoginTest {
 
   @AfterMethod
   public void afterMethod() {
+	  sleepFor(4);
 	  quit();
   }
 
