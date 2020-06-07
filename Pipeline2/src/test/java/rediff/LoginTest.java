@@ -17,7 +17,7 @@ public class LoginTest {
   }
   @BeforeMethod
   public void beforeMethod() {
-	  openBrowser("firefox");
+	  openBrowser("chrome");
 	  openurl("https://www.rediff.com/");  
   }
 
